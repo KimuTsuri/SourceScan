@@ -142,5 +142,5 @@ void mc_scintillator(const std::string& fname, int nToGenerate, ULong_t seed) {
 }
 
 void mc_scintillator() {
-  mc_scintillator("mc_scintillator.root", 1000000, 20191101);
+  mc_scintillator("./script/mc_scintillator.root", 1000000, 20191101);
 }
