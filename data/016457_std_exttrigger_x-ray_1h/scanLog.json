@@ -1,0 +1,40 @@
+{
+    "connectivity": {
+        "chipType": "RD53A",
+        "chips": [{
+            "config": "configs/rd53a_test.json",
+            "enable": 1,
+            "locked": 0,
+            "rx": 0,
+            "tx": 0
+        },{
+            "config": "configs/rd53a_test_1.json",
+            "enable": 0,
+            "locked": 0,
+            "rx": 1,
+            "tx": 1
+        }]
+    },
+    "ctrlCfg": {
+        "ctrlCfg": {
+            "cfg": {
+                "specNum": 0,
+                "spiConfig": 524288,
+                "trigConfig": {
+                    "config": 65534,
+                    "deadtime": 300,
+                    "delay": [0,0,0,0],
+                    "edge": 0,
+                    "mask": 15,
+                    "mode": 0
+                }
+            },
+            "type": "spec"
+        }
+    },
+    "exec": "-r configs/controller/specCfgExtTrigger.json -c configs/connectivity/example_rd53a_setup.json -s configs/scans/rd53a/std_exttrigger.json -p -m 0 ",
+    "runNumber": 16457,
+    "targetCharge": -1,
+    "targetTot": -1,
+    "timestamp": "2020-01-28_17:34:15"
+}

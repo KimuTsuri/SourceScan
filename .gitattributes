@@ -1,0 +1,4 @@
+*.root filter=lfs diff=lfs merge=lfs -text
+*.raw filter=lfs diff=lfs merge=lfs -text
+data/016452_std_noisescan/JohnDoe_data.raw filter=lfs diff=lfs merge=lfs -text
+data/back200125/016368_std_noisescan/JohnDoe_data.raw filter=lfs diff=lfs merge=lfs -text

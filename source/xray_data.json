@@ -1,0 +1,1118 @@
+{
+    "Si": {
+        "E=1.0keV": {
+            "Photon Energy": "1.000E-03",
+            "Coherent Scattering": "2.528E+00",
+            "Incoherent Scattering": "1.317E-02",
+            "Photoelectric Absorption": "1.567E+03",
+            "Total with Coherent": "1.570E+03",
+            "Total without Coherent": "1.567E+03"
+        },
+        "E=1.5keV": {
+            "Photon Energy": "1.500E-03",
+            "Coherent Scattering": "2.286E+00",
+            "Incoherent Scattering": "2.393E-02",
+            "Photoelectric Absorption": "5.333E+02",
+            "Total with Coherent": "5.356E+02",
+            "Total without Coherent": "5.333E+02"
+        },
+        "E=1.8keV": {
+            "Photon Energy": "1.839E-03",
+            "Coherent Scattering": "2.121E+00",
+            "Incoherent Scattering": "3.081E-02",
+            "Photoelectric Absorption": "3.191E+03",
+            "Total with Coherent": "3.193E+03",
+            "Total without Coherent": "3.191E+03"
+        },
+        "E=2.0keV": {
+            "Photon Energy": "2.000E-03",
+            "Coherent Scattering": "2.048E+00",
+            "Incoherent Scattering": "3.388E-02",
+            "Photoelectric Absorption": "2.775E+03",
+            "Total with Coherent": "2.777E+03",
+            "Total without Coherent": "2.775E+03"
+        },
+        "E=3.0keV": {
+            "Photon Energy": "3.000E-03",
+            "Coherent Scattering": "1.669E+00",
+            "Incoherent Scattering": "4.962E-02",
+            "Photoelectric Absorption": "9.767E+02",
+            "Total with Coherent": "9.784E+02",
+            "Total without Coherent": "9.767E+02"
+        },
+        "E=4.0keV": {
+            "Photon Energy": "4.000E-03",
+            "Coherent Scattering": "1.404E+00",
+            "Incoherent Scattering": "6.135E-02",
+            "Photoelectric Absorption": "4.514E+02",
+            "Total with Coherent": "4.528E+02",
+            "Total without Coherent": "4.514E+02"
+        },
+        "E=5.0keV": {
+            "Photon Energy": "5.000E-03",
+            "Coherent Scattering": "1.208E+00",
+            "Incoherent Scattering": "7.110E-02",
+            "Photoelectric Absorption": "2.438E+02",
+            "Total with Coherent": "2.451E+02",
+            "Total without Coherent": "2.439E+02"
+        },
+        "E=6.0keV": {
+            "Photon Energy": "6.000E-03",
+            "Coherent Scattering": "1.051E+00",
+            "Incoherent Scattering": "7.983E-02",
+            "Photoelectric Absorption": "1.458E+02",
+            "Total with Coherent": "1.470E+02",
+            "Total without Coherent": "1.459E+02"
+        },
+        "E=8.0keV": {
+            "Photon Energy": "8.000E-03",
+            "Coherent Scattering": "8.039E-01",
+            "Incoherent Scattering": "9.507E-02",
+            "Photoelectric Absorption": "6.379E+01",
+            "Total with Coherent": "6.469E+01",
+            "Total without Coherent": "6.389E+01"
+        },
+        "E=10.0keV": {
+            "Photon Energy": "1.000E-02",
+            "Coherent Scattering": "6.223E-01",
+            "Incoherent Scattering": "1.076E-01",
+            "Photoelectric Absorption": "3.315E+01",
+            "Total with Coherent": "3.388E+01",
+            "Total without Coherent": "3.326E+01"
+        },
+        "E=15.0keV": {
+            "Photon Energy": "1.500E-02",
+            "Coherent Scattering": "3.585E-01",
+            "Incoherent Scattering": "1.289E-01",
+            "Photoelectric Absorption": "9.848E+00",
+            "Total with Coherent": "1.034E+01",
+            "Total without Coherent": "9.977E+00"
+        },
+        "E=20.0keV": {
+            "Photon Energy": "2.000E-02",
+            "Coherent Scattering": "2.341E-01",
+            "Incoherent Scattering": "1.402E-01",
+            "Photoelectric Absorption": "4.089E+00",
+            "Total with Coherent": "4.463E+00",
+            "Total without Coherent": "4.229E+00"
+        },
+        "E=30.0keV": {
+            "Photon Energy": "3.000E-02",
+            "Coherent Scattering": "1.255E-01",
+            "Incoherent Scattering": "1.501E-01",
+            "Photoelectric Absorption": "1.161E+00",
+            "Total with Coherent": "1.436E+00",
+            "Total without Coherent": "1.311E+00"
+        },
+        "E=40.0keV": {
+            "Photon Energy": "4.000E-02",
+            "Coherent Scattering": "7.886E-02",
+            "Incoherent Scattering": "1.534E-01",
+            "Photoelectric Absorption": "4.687E-01",
+            "Total with Coherent": "7.010E-01",
+            "Total without Coherent": "6.221E-01"
+        },
+        "E=50.0keV": {
+            "Photon Energy": "5.000E-02",
+            "Coherent Scattering": "5.399E-02",
+            "Incoherent Scattering": "1.538E-01",
+            "Photoelectric Absorption": "2.307E-01",
+            "Total with Coherent": "4.385E-01",
+            "Total without Coherent": "3.845E-01"
+        },
+        "E=60.0keV": {
+            "Photon Energy": "6.000E-02",
+            "Coherent Scattering": "3.917E-02",
+            "Incoherent Scattering": "1.526E-01",
+            "Photoelectric Absorption": "1.288E-01",
+            "Total with Coherent": "3.206E-01",
+            "Total without Coherent": "2.815E-01"
+        },
+        "E=80.0keV": {
+            "Photon Energy": "8.000E-02",
+            "Coherent Scattering": "2.324E-02",
+            "Incoherent Scattering": "1.483E-01",
+            "Photoelectric Absorption": "5.120E-02",
+            "Total with Coherent": "2.228E-01",
+            "Total without Coherent": "1.995E-01"
+        },
+        "E=100.0keV": {
+            "Photon Energy": "1.000E-01",
+            "Coherent Scattering": "1.537E-02",
+            "Incoherent Scattering": "1.432E-01",
+            "Photoelectric Absorption": "2.498E-02",
+            "Total with Coherent": "1.835E-01",
+            "Total without Coherent": "1.682E-01"
+        }
+    },
+    "Cu": {
+        "E=1.0keV": {
+            "Photon Energy": "1.047E-03",
+            "Coherent Scattering": "5.032E+00",
+            "Incoherent Scattering": "6.362E-03",
+            "Photoelectric Absorption": "9.328E+03",
+            "Total with Coherent": "9.333E+03",
+            "Total without Coherent": "9.328E+03"
+        },
+        "E=1.1keV": {
+            "Photon Energy": "1.096E-03",
+            "Coherent Scattering": "5.008E+00",
+            "Incoherent Scattering": "6.838E-03",
+            "Photoelectric Absorption": "9.340E+03",
+            "Total with Coherent": "9.345E+03",
+            "Total without Coherent": "9.340E+03"
+        },
+        "E=1.5keV": {
+            "Photon Energy": "1.500E-03",
+            "Coherent Scattering": "4.806E+00",
+            "Incoherent Scattering": "1.086E-02",
+            "Photoelectric Absorption": "4.413E+03",
+            "Total with Coherent": "4.418E+03",
+            "Total without Coherent": "4.413E+03"
+        },
+        "E=2.0keV": {
+            "Photon Energy": "2.000E-03",
+            "Coherent Scattering": "4.525E+00",
+            "Incoherent Scattering": "1.591E-02",
+            "Photoelectric Absorption": "2.149E+03",
+            "Total with Coherent": "2.154E+03",
+            "Total without Coherent": "2.149E+03"
+        },
+        "E=3.0keV": {
+            "Photon Energy": "3.000E-03",
+            "Coherent Scattering": "3.946E+00",
+            "Incoherent Scattering": "2.587E-02",
+            "Photoelectric Absorption": "7.449E+02",
+            "Total with Coherent": "7.488E+02",
+            "Total without Coherent": "7.449E+02"
+        },
+        "E=4.0keV": {
+            "Photon Energy": "4.000E-03",
+            "Coherent Scattering": "3.399E+00",
+            "Incoherent Scattering": "3.527E-02",
+            "Photoelectric Absorption": "3.439E+02",
+            "Total with Coherent": "3.473E+02",
+            "Total without Coherent": "3.439E+02"
+        },
+        "E=5.0keV": {
+            "Photon Energy": "5.000E-03",
+            "Coherent Scattering": "2.914E+00",
+            "Incoherent Scattering": "4.391E-02",
+            "Photoelectric Absorption": "1.870E+02",
+            "Total with Coherent": "1.899E+02",
+            "Total without Coherent": "1.870E+02"
+        },
+        "E=6.0keV": {
+            "Photon Energy": "6.000E-03",
+            "Coherent Scattering": "2.500E+00",
+            "Incoherent Scattering": "5.181E-02",
+            "Photoelectric Absorption": "1.131E+02",
+            "Total with Coherent": "1.156E+02",
+            "Total without Coherent": "1.131E+02"
+        },
+        "E=8.0keV": {
+            "Photon Energy": "8.000E-03",
+            "Coherent Scattering": "1.872E+00",
+            "Incoherent Scattering": "6.569E-02",
+            "Photoelectric Absorption": "5.062E+01",
+            "Total with Coherent": "5.255E+01",
+            "Total without Coherent": "5.068E+01"
+        },
+        "E=9.0keV": {
+            "Photon Energy": "8.979E-03",
+            "Coherent Scattering": "1.646E+00",
+            "Incoherent Scattering": "7.162E-02",
+            "Photoelectric Absorption": "2.766E+02",
+            "Total with Coherent": "2.783E+02",
+            "Total without Coherent": "2.767E+02"
+        },
+        "E=10.0keV": {
+            "Photon Energy": "1.000E-02",
+            "Coherent Scattering": "1.450E+00",
+            "Incoherent Scattering": "7.725E-02",
+            "Photoelectric Absorption": "2.145E+02",
+            "Total with Coherent": "2.160E+02",
+            "Total without Coherent": "2.145E+02"
+        },
+        "E=15.0keV": {
+            "Photon Energy": "1.500E-02",
+            "Coherent Scattering": "8.797E-01",
+            "Incoherent Scattering": "9.761E-02",
+            "Photoelectric Absorption": "7.308E+01",
+            "Total with Coherent": "7.405E+01",
+            "Total without Coherent": "7.317E+01"
+        },
+        "E=20.0keV": {
+            "Photon Energy": "2.000E-02",
+            "Coherent Scattering": "6.059E-01",
+            "Incoherent Scattering": "1.098E-01",
+            "Photoelectric Absorption": "3.308E+01",
+            "Total with Coherent": "3.380E+01",
+            "Total without Coherent": "3.319E+01"
+        },
+        "E=30.0keV": {
+            "Photon Energy": "3.000E-02",
+            "Coherent Scattering": "3.369E-01",
+            "Incoherent Scattering": "1.231E-01",
+            "Photoelectric Absorption": "1.045E+01",
+            "Total with Coherent": "1.091E+01",
+            "Total without Coherent": "1.058E+01"
+        },
+        "E=40.0keV": {
+            "Photon Energy": "4.000E-02",
+            "Coherent Scattering": "2.124E-01",
+            "Incoherent Scattering": "1.289E-01",
+            "Photoelectric Absorption": "4.520E+00",
+            "Total with Coherent": "4.862E+00",
+            "Total without Coherent": "4.649E+00"
+        },
+        "E=50.0keV": {
+            "Photon Energy": "5.000E-02",
+            "Coherent Scattering": "1.467E-01",
+            "Incoherent Scattering": "1.311E-01",
+            "Photoelectric Absorption": "2.335E+00",
+            "Total with Coherent": "2.613E+00",
+            "Total without Coherent": "2.466E+00"
+        },
+        "E=60.0keV": {
+            "Photon Energy": "6.000E-02",
+            "Coherent Scattering": "1.079E-01",
+            "Incoherent Scattering": "1.313E-01",
+            "Photoelectric Absorption": "1.353E+00",
+            "Total with Coherent": "1.593E+00",
+            "Total without Coherent": "1.485E+00"
+        },
+        "E=80.0keV": {
+            "Photon Energy": "8.000E-02",
+            "Coherent Scattering": "6.595E-02",
+            "Incoherent Scattering": "1.295E-01",
+            "Photoelectric Absorption": "5.676E-01",
+            "Total with Coherent": "7.630E-01",
+            "Total without Coherent": "6.970E-01"
+        },
+        "E=100.0keV": {
+            "Photon Energy": "1.000E-01",
+            "Coherent Scattering": "4.446E-02",
+            "Incoherent Scattering": "1.262E-01",
+            "Photoelectric Absorption": "2.878E-01",
+            "Total with Coherent": "4.585E-01",
+            "Total without Coherent": "4.140E-01"
+        },
+        "E=150.0keV": {
+            "Photon Energy": "1.500E-01",
+            "Coherent Scattering": "2.111E-02",
+            "Incoherent Scattering": "1.171E-01",
+            "Photoelectric Absorption": "8.345E-02",
+            "Total with Coherent": "2.217E-01",
+            "Total without Coherent": "2.006E-01"
+        },
+        "E=200.0keV": {
+            "Photon Energy": "2.000E-01",
+            "Coherent Scattering": "1.226E-02",
+            "Incoherent Scattering": "1.088E-01",
+            "Photoelectric Absorption": "3.487E-02",
+            "Total with Coherent": "1.559E-01",
+            "Total without Coherent": "1.437E-01"
+        },
+        "E=300.0keV": {
+            "Photon Energy": "3.000E-01",
+            "Coherent Scattering": "5.621E-03",
+            "Incoherent Scattering": "9.581E-02",
+            "Photoelectric Absorption": "1.051E-02",
+            "Total with Coherent": "1.119E-01",
+            "Total without Coherent": "1.063E-01"
+        },
+        "E=400.0keV": {
+            "Photon Energy": "4.000E-01",
+            "Coherent Scattering": "3.207E-03",
+            "Incoherent Scattering": "8.626E-02",
+            "Photoelectric Absorption": "4.664E-03",
+            "Total with Coherent": "9.413E-02",
+            "Total without Coherent": "9.092E-02"
+        },
+        "E=500.0keV": {
+            "Photon Energy": "5.000E-01",
+            "Coherent Scattering": "2.068E-03",
+            "Incoherent Scattering": "7.899E-02",
+            "Photoelectric Absorption": "2.568E-03",
+            "Total with Coherent": "8.363E-02",
+            "Total without Coherent": "8.156E-02"
+        },
+        "E=600.0keV": {
+            "Photon Energy": "6.000E-01",
+            "Coherent Scattering": "1.442E-03",
+            "Incoherent Scattering": "7.319E-02",
+            "Photoelectric Absorption": "1.621E-03",
+            "Total with Coherent": "7.625E-02",
+            "Total without Coherent": "7.481E-02"
+        },
+        "E=800.0keV": {
+            "Photon Energy": "8.000E-01",
+            "Coherent Scattering": "8.152E-04",
+            "Incoherent Scattering": "6.441E-02",
+            "Photoelectric Absorption": "8.265E-04",
+            "Total with Coherent": "6.606E-02",
+            "Total without Coherent": "6.524E-02"
+        },
+        "E=1000.0keV": {
+            "Photon Energy": "1.000E+00",
+            "Coherent Scattering": "5.228E-04",
+            "Incoherent Scattering": "5.797E-02",
+            "Photoelectric Absorption": "5.143E-04",
+            "Total with Coherent": "5.901E-02",
+            "Total without Coherent": "5.848E-02"
+        }
+    },
+    "Al": {
+        "E=1.0keV": {
+            "Photon Energy": "1.000E-03",
+            "Coherent Scattering": "2.256E+00",
+            "Incoherent Scattering": "1.427E-02",
+            "Photoelectric Absorption": "1.183E+03",
+            "Total with Coherent": "1.185E+03",
+            "Total without Coherent": "1.183E+03"
+        },
+        "E=1.5keV": {
+            "Photon Energy": "1.500E-03",
+            "Coherent Scattering": "2.040E+00",
+            "Incoherent Scattering": "2.477E-02",
+            "Photoelectric Absorption": "4.002E+02",
+            "Total with Coherent": "4.023E+02",
+            "Total without Coherent": "4.002E+02"
+        },
+        "E=1.6keV": {
+            "Photon Energy": "1.560E-03",
+            "Coherent Scattering": "2.015E+00",
+            "Incoherent Scattering": "2.594E-02",
+            "Photoelectric Absorption": "3.955E+03",
+            "Total with Coherent": "3.957E+03",
+            "Total without Coherent": "3.955E+03"
+        },
+        "E=2.0keV": {
+            "Photon Energy": "2.000E-03",
+            "Coherent Scattering": "1.838E+00",
+            "Incoherent Scattering": "3.375E-02",
+            "Photoelectric Absorption": "2.261E+03",
+            "Total with Coherent": "2.263E+03",
+            "Total without Coherent": "2.261E+03"
+        },
+        "E=3.0keV": {
+            "Photon Energy": "3.000E-03",
+            "Coherent Scattering": "1.523E+00",
+            "Incoherent Scattering": "4.732E-02",
+            "Photoelectric Absorption": "7.865E+02",
+            "Total with Coherent": "7.881E+02",
+            "Total without Coherent": "7.866E+02"
+        },
+        "E=4.0keV": {
+            "Photon Energy": "4.000E-03",
+            "Coherent Scattering": "1.295E+00",
+            "Incoherent Scattering": "5.810E-02",
+            "Photoelectric Absorption": "3.591E+02",
+            "Total with Coherent": "3.605E+02",
+            "Total without Coherent": "3.592E+02"
+        },
+        "E=5.0keV": {
+            "Photon Energy": "5.000E-03",
+            "Coherent Scattering": "1.116E+00",
+            "Incoherent Scattering": "6.787E-02",
+            "Photoelectric Absorption": "1.922E+02",
+            "Total with Coherent": "1.934E+02",
+            "Total without Coherent": "1.923E+02"
+        },
+        "E=6.0keV": {
+            "Photon Energy": "6.000E-03",
+            "Coherent Scattering": "9.638E-01",
+            "Incoherent Scattering": "7.696E-02",
+            "Photoelectric Absorption": "1.143E+02",
+            "Total with Coherent": "1.153E+02",
+            "Total without Coherent": "1.143E+02"
+        },
+        "E=8.0keV": {
+            "Photon Energy": "8.000E-03",
+            "Coherent Scattering": "7.229E-01",
+            "Incoherent Scattering": "9.292E-02",
+            "Photoelectric Absorption": "4.950E+01",
+            "Total with Coherent": "5.032E+01",
+            "Total without Coherent": "4.960E+01"
+        },
+        "E=10.0keV": {
+            "Photon Energy": "1.000E-02",
+            "Coherent Scattering": "5.513E-01",
+            "Incoherent Scattering": "1.058E-01",
+            "Photoelectric Absorption": "2.556E+01",
+            "Total with Coherent": "2.621E+01",
+            "Total without Coherent": "2.566E+01"
+        },
+        "E=15.0keV": {
+            "Photon Energy": "1.500E-02",
+            "Coherent Scattering": "3.136E-01",
+            "Incoherent Scattering": "1.265E-01",
+            "Photoelectric Absorption": "7.515E+00",
+            "Total with Coherent": "7.955E+00",
+            "Total without Coherent": "7.641E+00"
+        },
+        "E=20.0keV": {
+            "Photon Energy": "2.000E-02",
+            "Coherent Scattering": "2.046E-01",
+            "Incoherent Scattering": "1.371E-01",
+            "Photoelectric Absorption": "3.100E+00",
+            "Total with Coherent": "3.442E+00",
+            "Total without Coherent": "3.237E+00"
+        },
+        "E=30.0keV": {
+            "Photon Energy": "3.000E-02",
+            "Coherent Scattering": "1.095E-01",
+            "Incoherent Scattering": "1.464E-01",
+            "Photoelectric Absorption": "8.722E-01",
+            "Total with Coherent": "1.128E+00",
+            "Total without Coherent": "1.019E+00"
+        },
+        "E=40.0keV": {
+            "Photon Energy": "4.000E-02",
+            "Coherent Scattering": "6.859E-02",
+            "Incoherent Scattering": "1.494E-01",
+            "Photoelectric Absorption": "3.504E-01",
+            "Total with Coherent": "5.684E-01",
+            "Total without Coherent": "4.998E-01"
+        },
+        "E=50.0keV": {
+            "Photon Energy": "5.000E-02",
+            "Coherent Scattering": "4.678E-02",
+            "Incoherent Scattering": "1.496E-01",
+            "Photoelectric Absorption": "1.718E-01",
+            "Total with Coherent": "3.681E-01",
+            "Total without Coherent": "3.214E-01"
+        },
+        "E=60.0keV": {
+            "Photon Energy": "6.000E-02",
+            "Coherent Scattering": "3.386E-02",
+            "Incoherent Scattering": "1.483E-01",
+            "Photoelectric Absorption": "9.564E-02",
+            "Total with Coherent": "2.778E-01",
+            "Total without Coherent": "2.440E-01"
+        },
+        "E=80.0keV": {
+            "Photon Energy": "8.000E-02",
+            "Coherent Scattering": "2.005E-02",
+            "Incoherent Scattering": "1.439E-01",
+            "Photoelectric Absorption": "3.783E-02",
+            "Total with Coherent": "2.018E-01",
+            "Total without Coherent": "1.817E-01"
+        },
+        "E=100.0keV": {
+            "Photon Energy": "1.000E-01",
+            "Coherent Scattering": "1.324E-02",
+            "Incoherent Scattering": "1.388E-01",
+            "Photoelectric Absorption": "1.840E-02",
+            "Total with Coherent": "1.704E-01",
+            "Total without Coherent": "1.572E-01"
+        }
+    },
+    "ABSresin": {
+        "E=1.0keV": {
+            "Photon Energy": "1.000E-03",
+            "Coherent Scattering": "1.034E+00",
+            "Incoherent Scattering": "1.558E-02",
+            "Photoelectric Absorption": "2.104E+03",
+            "Total with Coherent": "2.105E+03",
+            "Total without Coherent": "2.104E+03"
+        },
+        "E=1.5keV": {
+            "Photon Energy": "1.500E-03",
+            "Coherent Scattering": "9.194E-01",
+            "Incoherent Scattering": "3.085E-02",
+            "Photoelectric Absorption": "6.682E+02",
+            "Total with Coherent": "6.691E+02",
+            "Total without Coherent": "6.682E+02"
+        },
+        "E=2.0keV": {
+            "Photon Energy": "2.000E-03",
+            "Coherent Scattering": "7.986E-01",
+            "Incoherent Scattering": "4.726E-02",
+            "Photoelectric Absorption": "2.888E+02",
+            "Total with Coherent": "2.897E+02",
+            "Total without Coherent": "2.889E+02"
+        },
+        "E=3.0keV": {
+            "Photon Energy": "3.000E-03",
+            "Coherent Scattering": "5.888E-01",
+            "Incoherent Scattering": "7.712E-02",
+            "Photoelectric Absorption": "8.604E+01",
+            "Total with Coherent": "8.671E+01",
+            "Total without Coherent": "8.612E+01"
+        },
+        "E=4.0keV": {
+            "Photon Energy": "4.000E-03",
+            "Coherent Scattering": "4.420E-01",
+            "Incoherent Scattering": "1.000E-01",
+            "Photoelectric Absorption": "3.580E+01",
+            "Total with Coherent": "3.634E+01",
+            "Total without Coherent": "3.590E+01"
+        },
+        "E=5.0keV": {
+            "Photon Energy": "5.000E-03",
+            "Coherent Scattering": "3.446E-01",
+            "Incoherent Scattering": "1.163E-01",
+            "Photoelectric Absorption": "1.796E+01",
+            "Total with Coherent": "1.842E+01",
+            "Total without Coherent": "1.807E+01"
+        },
+        "E=6.0keV": {
+            "Photon Energy": "6.000E-03",
+            "Coherent Scattering": "2.790E-01",
+            "Incoherent Scattering": "1.279E-01",
+            "Photoelectric Absorption": "1.016E+01",
+            "Total with Coherent": "1.056E+01",
+            "Total without Coherent": "1.029E+01"
+        },
+        "E=8.0keV": {
+            "Photon Energy": "8.000E-03",
+            "Coherent Scattering": "1.995E-01",
+            "Incoherent Scattering": "1.432E-01",
+            "Photoelectric Absorption": "4.092E+00",
+            "Total with Coherent": "4.434E+00",
+            "Total without Coherent": "4.235E+00"
+        },
+        "E=10.0keV": {
+            "Photon Energy": "1.000E-02",
+            "Coherent Scattering": "1.536E-01",
+            "Incoherent Scattering": "1.531E-01",
+            "Photoelectric Absorption": "2.005E+00",
+            "Total with Coherent": "2.312E+00",
+            "Total without Coherent": "2.158E+00"
+        },
+        "E=15.0keV": {
+            "Photon Energy": "1.500E-02",
+            "Coherent Scattering": "9.238E-02",
+            "Incoherent Scattering": "1.681E-01",
+            "Photoelectric Absorption": "5.404E-01",
+            "Total with Coherent": "8.009E-01",
+            "Total without Coherent": "7.085E-01"
+        },
+        "E=20.0keV": {
+            "Photon Energy": "2.000E-02",
+            "Coherent Scattering": "6.110E-02",
+            "Incoherent Scattering": "1.758E-01",
+            "Photoelectric Absorption": "2.108E-01",
+            "Total with Coherent": "4.478E-01",
+            "Total without Coherent": "3.866E-01"
+        },
+        "E=30.0keV": {
+            "Photon Energy": "3.000E-02",
+            "Coherent Scattering": "3.174E-02",
+            "Incoherent Scattering": "1.806E-01",
+            "Photoelectric Absorption": "5.535E-02",
+            "Total with Coherent": "2.677E-01",
+            "Total without Coherent": "2.359E-01"
+        },
+        "E=40.0keV": {
+            "Photon Energy": "4.000E-02",
+            "Coherent Scattering": "1.929E-02",
+            "Incoherent Scattering": "1.797E-01",
+            "Photoelectric Absorption": "2.129E-02",
+            "Total with Coherent": "2.202E-01",
+            "Total without Coherent": "2.010E-01"
+        },
+        "E=50.0keV": {
+            "Photon Energy": "5.000E-02",
+            "Coherent Scattering": "1.293E-02",
+            "Incoherent Scattering": "1.768E-01",
+            "Photoelectric Absorption": "1.013E-02",
+            "Total with Coherent": "1.998E-01",
+            "Total without Coherent": "1.869E-01"
+        },
+        "E=60.0keV": {
+            "Photon Energy": "6.000E-02",
+            "Coherent Scattering": "9.251E-03",
+            "Incoherent Scattering": "1.732E-01",
+            "Photoelectric Absorption": "5.511E-03",
+            "Total with Coherent": "1.880E-01",
+            "Total without Coherent": "1.787E-01"
+        },
+        "E=80.0keV": {
+            "Photon Energy": "8.000E-02",
+            "Coherent Scattering": "5.388E-03",
+            "Incoherent Scattering": "1.657E-01",
+            "Photoelectric Absorption": "2.110E-03",
+            "Total with Coherent": "1.732E-01",
+            "Total without Coherent": "1.678E-01"
+        },
+        "E=100.0keV": {
+            "Photon Energy": "1.000E-01",
+            "Coherent Scattering": "3.510E-03",
+            "Incoherent Scattering": "1.585E-01",
+            "Photoelectric Absorption": "1.003E-03",
+            "Total with Coherent": "1.631E-01",
+            "Total without Coherent": "1.596E-01"
+        },
+        "E=150.0keV": {
+            "Photon Energy": "1.500E-01",
+            "Coherent Scattering": "1.590E-03",
+            "Incoherent Scattering": "1.434E-01",
+            "Photoelectric Absorption": "2.633E-04",
+            "Total with Coherent": "1.453E-01",
+            "Total without Coherent": "1.437E-01"
+        },
+        "E=200.0keV": {
+            "Photon Energy": "2.000E-01",
+            "Coherent Scattering": "9.007E-04",
+            "Incoherent Scattering": "1.317E-01",
+            "Photoelectric Absorption": "1.035E-04",
+            "Total with Coherent": "1.327E-01",
+            "Total without Coherent": "1.318E-01"
+        },
+        "E=300.0keV": {
+            "Photon Energy": "3.000E-01",
+            "Coherent Scattering": "4.025E-04",
+            "Incoherent Scattering": "1.147E-01",
+            "Photoelectric Absorption": "2.903E-05",
+            "Total with Coherent": "1.151E-01",
+            "Total without Coherent": "1.147E-01"
+        },
+        "E=400.0keV": {
+            "Photon Energy": "4.000E-01",
+            "Coherent Scattering": "2.268E-04",
+            "Incoherent Scattering": "1.028E-01",
+            "Photoelectric Absorption": "1.239E-05",
+            "Total with Coherent": "1.031E-01",
+            "Total without Coherent": "1.029E-01"
+        },
+        "E=500.0keV": {
+            "Photon Energy": "5.000E-01",
+            "Coherent Scattering": "1.453E-04",
+            "Incoherent Scattering": "9.395E-02",
+            "Photoelectric Absorption": "6.664E-06",
+            "Total with Coherent": "9.410E-02",
+            "Total without Coherent": "9.396E-02"
+        },
+        "E=600.0keV": {
+            "Photon Energy": "6.000E-01",
+            "Coherent Scattering": "1.010E-04",
+            "Incoherent Scattering": "8.691E-02",
+            "Photoelectric Absorption": "4.145E-06",
+            "Total with Coherent": "8.702E-02",
+            "Total without Coherent": "8.692E-02"
+        },
+        "E=800.0keV": {
+            "Photon Energy": "8.000E-01",
+            "Coherent Scattering": "5.680E-05",
+            "Incoherent Scattering": "7.636E-02",
+            "Photoelectric Absorption": "2.090E-06",
+            "Total with Coherent": "7.641E-02",
+            "Total without Coherent": "7.636E-02"
+        },
+        "E=1000.0keV": {
+            "Photon Energy": "1.000E+00",
+            "Coherent Scattering": "3.636E-05",
+            "Incoherent Scattering": "6.866E-02",
+            "Photoelectric Absorption": "1.299E-06",
+            "Total with Coherent": "6.870E-02",
+            "Total without Coherent": "6.866E-02"
+        }
+    },
+    "Polyester": {
+        "E=1.0keV": {
+            "Photon Energy": "1.000E-03",
+            "Coherent Scattering": "1.189E+00",
+            "Incoherent Scattering": "1.284E-02",
+            "Photoelectric Absorption": "2.909E+03",
+            "Total with Coherent": "2.911E+03",
+            "Total without Coherent": "2.909E+03"
+        },
+        "E=1.5keV": {
+            "Photon Energy": "1.500E-03",
+            "Coherent Scattering": "1.075E+00",
+            "Incoherent Scattering": "2.570E-02",
+            "Photoelectric Absorption": "9.525E+02",
+            "Total with Coherent": "9.536E+02",
+            "Total without Coherent": "9.526E+02"
+        },
+        "E=2.0keV": {
+            "Photon Energy": "2.000E-03",
+            "Coherent Scattering": "9.509E-01",
+            "Incoherent Scattering": "3.982E-02",
+            "Photoelectric Absorption": "4.196E+02",
+            "Total with Coherent": "4.206E+02",
+            "Total without Coherent": "4.196E+02"
+        },
+        "E=3.0keV": {
+            "Photon Energy": "3.000E-03",
+            "Coherent Scattering": "7.237E-01",
+            "Incoherent Scattering": "6.658E-02",
+            "Photoelectric Absorption": "1.280E+02",
+            "Total with Coherent": "1.288E+02",
+            "Total without Coherent": "1.280E+02"
+        },
+        "E=4.0keV": {
+            "Photon Energy": "4.000E-03",
+            "Coherent Scattering": "5.532E-01",
+            "Incoherent Scattering": "8.816E-02",
+            "Photoelectric Absorption": "5.401E+01",
+            "Total with Coherent": "5.465E+01",
+            "Total without Coherent": "5.410E+01"
+        },
+        "E=5.0keV": {
+            "Photon Energy": "5.000E-03",
+            "Coherent Scattering": "4.339E-01",
+            "Incoherent Scattering": "1.043E-01",
+            "Photoelectric Absorption": "2.738E+01",
+            "Total with Coherent": "2.792E+01",
+            "Total without Coherent": "2.748E+01"
+        },
+        "E=6.0keV": {
+            "Photon Energy": "6.000E-03",
+            "Coherent Scattering": "3.507E-01",
+            "Incoherent Scattering": "1.162E-01",
+            "Photoelectric Absorption": "1.561E+01",
+            "Total with Coherent": "1.608E+01",
+            "Total without Coherent": "1.573E+01"
+        },
+        "E=8.0keV": {
+            "Photon Energy": "8.000E-03",
+            "Coherent Scattering": "2.473E-01",
+            "Incoherent Scattering": "1.322E-01",
+            "Photoelectric Absorption": "6.370E+00",
+            "Total with Coherent": "6.750E+00",
+            "Total without Coherent": "6.502E+00"
+        },
+        "E=10.0keV": {
+            "Photon Energy": "1.000E-02",
+            "Coherent Scattering": "1.877E-01",
+            "Incoherent Scattering": "1.426E-01",
+            "Photoelectric Absorption": "3.151E+00",
+            "Total with Coherent": "3.482E+00",
+            "Total without Coherent": "3.294E+00"
+        },
+        "E=15.0keV": {
+            "Photon Energy": "1.500E-02",
+            "Coherent Scattering": "1.111E-01",
+            "Incoherent Scattering": "1.581E-01",
+            "Photoelectric Absorption": "8.626E-01",
+            "Total with Coherent": "1.132E+00",
+            "Total without Coherent": "1.021E+00"
+        },
+        "E=20.0keV": {
+            "Photon Energy": "2.000E-02",
+            "Coherent Scattering": "7.370E-02",
+            "Incoherent Scattering": "1.662E-01",
+            "Photoelectric Absorption": "3.400E-01",
+            "Total with Coherent": "5.799E-01",
+            "Total without Coherent": "5.062E-01"
+        },
+        "E=30.0keV": {
+            "Photon Energy": "3.000E-02",
+            "Coherent Scattering": "3.863E-02",
+            "Incoherent Scattering": "1.720E-01",
+            "Photoelectric Absorption": "9.032E-02",
+            "Total with Coherent": "3.009E-01",
+            "Total without Coherent": "2.623E-01"
+        },
+        "E=40.0keV": {
+            "Photon Energy": "4.000E-02",
+            "Coherent Scattering": "2.356E-02",
+            "Incoherent Scattering": "1.718E-01",
+            "Photoelectric Absorption": "3.500E-02",
+            "Total with Coherent": "2.304E-01",
+            "Total without Coherent": "2.068E-01"
+        },
+        "E=50.0keV": {
+            "Photon Energy": "5.000E-02",
+            "Coherent Scattering": "1.583E-02",
+            "Incoherent Scattering": "1.695E-01",
+            "Photoelectric Absorption": "1.673E-02",
+            "Total with Coherent": "2.020E-01",
+            "Total without Coherent": "1.862E-01"
+        },
+        "E=60.0keV": {
+            "Photon Energy": "6.000E-02",
+            "Coherent Scattering": "1.135E-02",
+            "Incoherent Scattering": "1.663E-01",
+            "Photoelectric Absorption": "9.141E-03",
+            "Total with Coherent": "1.868E-01",
+            "Total without Coherent": "1.754E-01"
+        },
+        "E=80.0keV": {
+            "Photon Energy": "8.000E-02",
+            "Coherent Scattering": "6.631E-03",
+            "Incoherent Scattering": "1.593E-01",
+            "Photoelectric Absorption": "3.520E-03",
+            "Total with Coherent": "1.695E-01",
+            "Total without Coherent": "1.629E-01"
+        },
+        "E=100.0keV": {
+            "Photon Energy": "1.000E-01",
+            "Coherent Scattering": "4.330E-03",
+            "Incoherent Scattering": "1.526E-01",
+            "Photoelectric Absorption": "1.681E-03",
+            "Total with Coherent": "1.586E-01",
+            "Total without Coherent": "1.543E-01"
+        },
+        "E=150.0keV": {
+            "Photon Energy": "1.500E-01",
+            "Coherent Scattering": "1.969E-03",
+            "Incoherent Scattering": "1.382E-01",
+            "Photoelectric Absorption": "4.432E-04",
+            "Total with Coherent": "1.406E-01",
+            "Total without Coherent": "1.386E-01"
+        },
+        "E=200.0keV": {
+            "Photon Energy": "2.000E-01",
+            "Coherent Scattering": "1.117E-03",
+            "Incoherent Scattering": "1.269E-01",
+            "Photoelectric Absorption": "1.747E-04",
+            "Total with Coherent": "1.282E-01",
+            "Total without Coherent": "1.271E-01"
+        },
+        "E=300.0keV": {
+            "Photon Energy": "3.000E-01",
+            "Coherent Scattering": "4.996E-04",
+            "Incoherent Scattering": "1.106E-01",
+            "Photoelectric Absorption": "4.923E-05",
+            "Total with Coherent": "1.111E-01",
+            "Total without Coherent": "1.106E-01"
+        },
+        "E=400.0keV": {
+            "Photon Energy": "4.000E-01",
+            "Coherent Scattering": "2.816E-04",
+            "Incoherent Scattering": "9.917E-02",
+            "Photoelectric Absorption": "2.105E-05",
+            "Total with Coherent": "9.947E-02",
+            "Total without Coherent": "9.919E-02"
+        },
+        "E=500.0keV": {
+            "Photon Energy": "5.000E-01",
+            "Coherent Scattering": "1.805E-04",
+            "Incoherent Scattering": "9.060E-02",
+            "Photoelectric Absorption": "1.134E-05",
+            "Total with Coherent": "9.080E-02",
+            "Total without Coherent": "9.062E-02"
+        },
+        "E=600.0keV": {
+            "Photon Energy": "6.000E-01",
+            "Coherent Scattering": "1.254E-04",
+            "Incoherent Scattering": "8.382E-02",
+            "Photoelectric Absorption": "7.057E-06",
+            "Total with Coherent": "8.395E-02",
+            "Total without Coherent": "8.382E-02"
+        },
+        "E=800.0keV": {
+            "Photon Energy": "8.000E-01",
+            "Coherent Scattering": "7.056E-05",
+            "Incoherent Scattering": "7.365E-02",
+            "Photoelectric Absorption": "3.560E-06",
+            "Total with Coherent": "7.372E-02",
+            "Total without Coherent": "7.365E-02"
+        },
+        "E=1000.0keV": {
+            "Photon Energy": "1.000E+00",
+            "Coherent Scattering": "4.517E-05",
+            "Incoherent Scattering": "6.623E-02",
+            "Photoelectric Absorption": "2.213E-06",
+            "Total with Coherent": "6.628E-02",
+            "Total without Coherent": "6.623E-02"
+        }
+    },
+    "Polystyrene": {
+        "E=1.0keV": {
+            "Photon Energy": "1.000E-03",
+            "Coherent Scattering": "1.022E+00",
+            "Incoherent Scattering": "1.555E-02",
+            "Photoelectric Absorption": "2.039E+03",
+            "Total with Coherent": "2.040E+03",
+            "Total without Coherent": "2.039E+03"
+        },
+        "E=1.5keV": {
+            "Photon Energy": "1.500E-03",
+            "Coherent Scattering": "9.075E-01",
+            "Incoherent Scattering": "3.077E-02",
+            "Photoelectric Absorption": "6.454E+02",
+            "Total with Coherent": "6.464E+02",
+            "Total without Coherent": "6.454E+02"
+        },
+        "E=2.0keV": {
+            "Photon Energy": "2.000E-03",
+            "Coherent Scattering": "7.866E-01",
+            "Incoherent Scattering": "4.709E-02",
+            "Photoelectric Absorption": "2.784E+02",
+            "Total with Coherent": "2.792E+02",
+            "Total without Coherent": "2.784E+02"
+        },
+        "E=3.0keV": {
+            "Photon Energy": "3.000E-03",
+            "Coherent Scattering": "5.780E-01",
+            "Incoherent Scattering": "7.680E-02",
+            "Photoelectric Absorption": "8.272E+01",
+            "Total with Coherent": "8.337E+01",
+            "Total without Coherent": "8.280E+01"
+        },
+        "E=4.0keV": {
+            "Photon Energy": "4.000E-03",
+            "Coherent Scattering": "4.333E-01",
+            "Incoherent Scattering": "9.957E-02",
+            "Photoelectric Absorption": "3.436E+01",
+            "Total with Coherent": "3.489E+01",
+            "Total without Coherent": "3.446E+01"
+        },
+        "E=5.0keV": {
+            "Photon Energy": "5.000E-03",
+            "Coherent Scattering": "3.379E-01",
+            "Incoherent Scattering": "1.158E-01",
+            "Photoelectric Absorption": "1.721E+01",
+            "Total with Coherent": "1.767E+01",
+            "Total without Coherent": "1.733E+01"
+        },
+        "E=6.0keV": {
+            "Photon Energy": "6.000E-03",
+            "Coherent Scattering": "2.738E-01",
+            "Incoherent Scattering": "1.273E-01",
+            "Photoelectric Absorption": "9.729E+00",
+            "Total with Coherent": "1.013E+01",
+            "Total without Coherent": "9.856E+00"
+        },
+        "E=8.0keV": {
+            "Photon Energy": "8.000E-03",
+            "Coherent Scattering": "1.962E-01",
+            "Incoherent Scattering": "1.425E-01",
+            "Photoelectric Absorption": "3.913E+00",
+            "Total with Coherent": "4.252E+00",
+            "Total without Coherent": "4.056E+00"
+        },
+        "E=10.0keV": {
+            "Photon Energy": "1.000E-02",
+            "Coherent Scattering": "1.514E-01",
+            "Incoherent Scattering": "1.525E-01",
+            "Photoelectric Absorption": "1.915E+00",
+            "Total with Coherent": "2.219E+00",
+            "Total without Coherent": "2.068E+00"
+        },
+        "E=15.0keV": {
+            "Photon Energy": "1.500E-02",
+            "Coherent Scattering": "9.119E-02",
+            "Incoherent Scattering": "1.675E-01",
+            "Photoelectric Absorption": "5.154E-01",
+            "Total with Coherent": "7.741E-01",
+            "Total without Coherent": "6.829E-01"
+        },
+        "E=20.0keV": {
+            "Photon Energy": "2.000E-02",
+            "Coherent Scattering": "6.028E-02",
+            "Incoherent Scattering": "1.753E-01",
+            "Photoelectric Absorption": "2.008E-01",
+            "Total with Coherent": "4.364E-01",
+            "Total without Coherent": "3.761E-01"
+        },
+        "E=30.0keV": {
+            "Photon Energy": "3.000E-02",
+            "Coherent Scattering": "3.128E-02",
+            "Incoherent Scattering": "1.800E-01",
+            "Photoelectric Absorption": "5.264E-02",
+            "Total with Coherent": "2.640E-01",
+            "Total without Coherent": "2.327E-01"
+        },
+        "E=40.0keV": {
+            "Photon Energy": "4.000E-02",
+            "Coherent Scattering": "1.900E-02",
+            "Incoherent Scattering": "1.791E-01",
+            "Photoelectric Absorption": "2.023E-02",
+            "Total with Coherent": "2.183E-01",
+            "Total without Coherent": "1.993E-01"
+        },
+        "E=50.0keV": {
+            "Photon Energy": "5.000E-02",
+            "Coherent Scattering": "1.273E-02",
+            "Incoherent Scattering": "1.762E-01",
+            "Photoelectric Absorption": "9.618E-03",
+            "Total with Coherent": "1.986E-01",
+            "Total without Coherent": "1.858E-01"
+        },
+        "E=60.0keV": {
+            "Photon Energy": "6.000E-02",
+            "Coherent Scattering": "9.107E-03",
+            "Incoherent Scattering": "1.726E-01",
+            "Photoelectric Absorption": "5.232E-03",
+            "Total with Coherent": "1.870E-01",
+            "Total without Coherent": "1.779E-01"
+        },
+        "E=80.0keV": {
+            "Photon Energy": "8.000E-02",
+            "Coherent Scattering": "5.302E-03",
+            "Incoherent Scattering": "1.652E-01",
+            "Photoelectric Absorption": "2.002E-03",
+            "Total with Coherent": "1.725E-01",
+            "Total without Coherent": "1.672E-01"
+        },
+        "E=100.0keV": {
+            "Photon Energy": "1.000E-01",
+            "Coherent Scattering": "3.453E-03",
+            "Incoherent Scattering": "1.580E-01",
+            "Photoelectric Absorption": "9.516E-04",
+            "Total with Coherent": "1.624E-01",
+            "Total without Coherent": "1.590E-01"
+        },
+        "E=150.0keV": {
+            "Photon Energy": "1.500E-01",
+            "Coherent Scattering": "1.564E-03",
+            "Incoherent Scattering": "1.430E-01",
+            "Photoelectric Absorption": "2.497E-04",
+            "Total with Coherent": "1.448E-01",
+            "Total without Coherent": "1.432E-01"
+        },
+        "E=200.0keV": {
+            "Photon Energy": "2.000E-01",
+            "Coherent Scattering": "8.856E-04",
+            "Incoherent Scattering": "1.312E-01",
+            "Photoelectric Absorption": "9.812E-05",
+            "Total with Coherent": "1.322E-01",
+            "Total without Coherent": "1.313E-01"
+        },
+        "E=300.0keV": {
+            "Photon Energy": "3.000E-01",
+            "Coherent Scattering": "3.957E-04",
+            "Incoherent Scattering": "1.143E-01",
+            "Photoelectric Absorption": "2.750E-05",
+            "Total with Coherent": "1.147E-01",
+            "Total without Coherent": "1.144E-01"
+        },
+        "E=400.0keV": {
+            "Photon Energy": "4.000E-01",
+            "Coherent Scattering": "2.230E-04",
+            "Incoherent Scattering": "1.025E-01",
+            "Photoelectric Absorption": "1.173E-05",
+            "Total with Coherent": "1.027E-01",
+            "Total without Coherent": "1.025E-01"
+        },
+        "E=500.0keV": {
+            "Photon Energy": "5.000E-01",
+            "Coherent Scattering": "1.429E-04",
+            "Incoherent Scattering": "9.364E-02",
+            "Photoelectric Absorption": "6.310E-06",
+            "Total with Coherent": "9.379E-02",
+            "Total without Coherent": "9.364E-02"
+        },
+        "E=600.0keV": {
+            "Photon Energy": "6.000E-01",
+            "Coherent Scattering": "9.926E-05",
+            "Incoherent Scattering": "8.662E-02",
+            "Photoelectric Absorption": "3.924E-06",
+            "Total with Coherent": "8.672E-02",
+            "Total without Coherent": "8.662E-02"
+        },
+        "E=800.0keV": {
+            "Photon Energy": "8.000E-01",
+            "Coherent Scattering": "5.584E-05",
+            "Incoherent Scattering": "7.610E-02",
+            "Photoelectric Absorption": "1.979E-06",
+            "Total with Coherent": "7.615E-02",
+            "Total without Coherent": "7.610E-02"
+        },
+        "E=1000.0keV": {
+            "Photon Energy": "1.000E+00",
+            "Coherent Scattering": "3.575E-05",
+            "Incoherent Scattering": "6.843E-02",
+            "Photoelectric Absorption": "1.230E-06",
+            "Total with Coherent": "6.847E-02",
+            "Total without Coherent": "6.843E-02"
+        }
+    }
+}

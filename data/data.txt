@@ -1,0 +1,15 @@
+b-ray 5min
+number of trigger : 7174
+number of hit     : 17773
+trigger rate      : 2.47742
+----
+x-ray 1h
+number of trigger : 253484
+number of hit     : 473206
+trigger rate      : 1.86681
+----
+non-ray 1h
+number of trigger : 54
+number of hit     : 144
+trigger rate      : 2.66667
+
