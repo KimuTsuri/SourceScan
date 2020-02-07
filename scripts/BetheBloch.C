@@ -1,6 +1,3 @@
-/*
-  betaDecay.C
-*/
 #include <iostream>
 #include <cmath>
 #include "TF1.h"
@@ -9,7 +6,6 @@
 
 Double_t func_BB(Double_t* x, Double_t* c) {
   double bg = x[0];
-  double E = c[0];
   double A = c[1];
   double Z = c[2];
 
@@ -28,15 +24,13 @@ Double_t func_BB(Double_t* x, Double_t* c) {
   } else {
     f = - (K*Z / (A*b2)) * (ln - b2) ;
   }
-
   return f;
 }
 
 void BetheBloch() {
-  TCanvas* c = new TCanvas("c", "", 0, 10, 600, 400);
+  TCanvas* c = new TCanvas("c", "", 0, 10, 800, 600);
 
-  TF1* f_BB = new TF1("Bethe Bloch;bg;Mass stopping power [$MeV cm^2/g$]", &func_BB, 0.001, 10.0, 3);
-  f_BB->SetParameter(0, 2.28);
+  TF1* f_BB = new TF1("Bethe Bloch;bg;Mass stopping power [MeV cm^2/g]", &func_BB, 0.001, 10.0, 3);
   f_BB->SetParameter(1, 28.0855); // A　[/mol]
   f_BB->SetParameter(2, 14);  // Z [g/mol]
   f_BB->SetNpx(100000);
@@ -48,4 +42,5 @@ void BetheBloch() {
   gPad->SetLogy();
   f_BB->Draw();
 
+  c->SaveAs("./figure/BetheBloch_Si.png");
 }
