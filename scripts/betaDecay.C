@@ -5,8 +5,6 @@
 #include "TCanvas.h"
 #include "TRandom3.h"
 
-
-
 class Results {
   public:
     int nGenerate;
@@ -82,7 +80,7 @@ Results Events() {
 
   double pe;
   pe = gRandom->Uniform(0.0, 2.5);
-  
+
 
   bool Transmission = false;
 
