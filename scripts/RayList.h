@@ -7,8 +7,8 @@ class RayList {
     // beta ray
     std::vector<double> Sr = { 0.0049, 2.28};
     // gamma ray
-    std::vector<double> Cs = { 1.0, 0.546};
-    std::vector<double> Am = { 1.0, 0.049};
+    std::vector<double> Cs = { 1.0, 0.060};
+    std::vector<double> Am = { 1.0, 60};
 };
 
 #endif
