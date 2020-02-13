@@ -3,6 +3,9 @@
 #include "TF1.h"
 #include "TH1.h"
 #include "TCanvas.h"
+#include "TGaxis.h"
+
+#include "AtomList.h"
 
 Double_t func_BB(Double_t* x, Double_t* c) {
   double bg = x[0];
@@ -28,19 +31,27 @@ Double_t func_BB(Double_t* x, Double_t* c) {
 }
 
 void BetheBloch() {
-  TCanvas* c = new TCanvas("c", "", 0, 10, 800, 600);
+  AtomList atom;
 
-  TF1* f_BB = new TF1("Bethe Bloch;bg;Mass stopping power [MeV cm^2/g]", &func_BB, 0.001, 10.0, 3);
-  f_BB->SetParameter(1, 28.0855); // A　[/mol]
-  f_BB->SetParameter(2, 14);  // Z [g/mol]
+  double xmin = 0.01;
+  double xmax = 10.0;
+  double ymin = 0.1;
+  double ymax = 10000.;
+
+  TCanvas* c = new TCanvas("c", "", 0, 10, 600, 500);
+  c->SetLogx();
+  c->SetLogy();
+  c->SetTicks(1,1);
+
+  TF1* f_BB = new TF1("Bethe Bloch", &func_BB, xmin, xmax, 3);
+  f_BB->SetParameter(1, atom.Cu[0]); // A　[/mol]
+  f_BB->SetParameter(2, atom.Cu[1]);  // Z [g/mol]
   f_BB->SetNpx(100000);
+  f_BB->GetXaxis()->SetTitle("#beta#gamma");
+  f_BB->GetXaxis()->CenterTitle();
+  f_BB->GetYaxis()->SetTitle("Mass stopping power [MeV cm^{2}/g]");
 
-  //TH1* hframe=0;
-  //hframe = c->DrawFrame(0.0, 0.0, 2.5, 1.8);
-  //f_BB->Draw("same");
-  gPad->SetLogx();
-  gPad->SetLogy();
   f_BB->Draw();
 
-  c->SaveAs("./figure/BetheBloch_Si.png");
+  c->SaveAs("./figure/BetheBloch_Cu.pdf");
 }

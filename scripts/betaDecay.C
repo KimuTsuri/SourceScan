@@ -111,34 +111,34 @@ void betaDecay() {
   c->cd(1);
   TF1* f_decay = new TF1("f_decay1", "func_decay(x)", 0.0, 2.5);
   f_decay->SetNpx(100000);
+  gPad->SetTicks(1,1);
   f_decay->GetHistogram()->SetTitle(";;Intensity");
   f_decay->GetHistogram()->SetLineColor(kBlue);
-  gPad->SetTicks(1,1);
   f_decay->Draw();
   double Events = f_decay->Integral(0.0,2.4);
 
   c->cd(2);
   TF1* f_trans = new TF1("f_trans", "func_trans(x)", 0.0, 2.5);
   f_trans->SetNpx(100000);
+  gPad->SetTicks(1,1);
   f_trans->GetHistogram()->SetTitle(";;Transmission Probability");
   f_trans->GetHistogram()->SetLineColor(kGray);
-  gPad->SetTicks(1,1);
   f_trans->Draw();
 
   c->cd(3);
   TF1* f = new TF1("f", "func_decay(x) * func_trans(x)", 0.0, 2.5);
   f->SetNpx(100000);
+  gPad->SetTicks(1,1);
   f->GetHistogram()->SetTitle(";Kinetic Energy [MeV];Intensity");
   f->GetHistogram()->SetLineColor(kBlue);
-  gPad->SetTicks(1,1);
   f->Draw();
   double Transmission = f->Integral(0.0,2.4);
 
-  cout << "|              | **data** |" << endl;
-  cout << "| :----------- | :------: |" << endl;
-  cout << "| All events   |  " << Events << " |" << endl;
-  cout << "| Transmission |  " << Transmission << " |"<< endl;
-  cout << "| Hit rate     |  " << Transmission/Events << " |" << endl;
+  std::cout << "|              | **data** |" << std::endl;
+  std::cout << "| :----------- | :------: |" << std::endl;
+  std::cout << "| All events   |  " << Events << " |" << std::endl;
+  std::cout << "| Transmission |  " << Transmission << " |"<< std::endl;
+  std::cout << "| Hit rate     |  " << Transmission/Events << " |" << std::endl;
 
   c->SaveAs("./figure/betaDecay.pdf");
 }
