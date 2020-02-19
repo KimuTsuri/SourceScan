@@ -13,12 +13,13 @@
 #include "BetheBloch.h"
 
 Double_t func_decay(double x) {
-  double pe = x; // kinetic energy [MeV]
+  double E = x; // energy [MeV]
   double E0 = 2.28; // beta decay energy [MeV]
   double N = 1.0 ; // coefficient
   double me = 0.511; // electron mass [MeV]
 
-  double E = std::sqrt(pe*pe + me*me);
+  //double E = std::sqrt(pe*pe + me*me);
+  double pe = std::sqrt(E*E - me*me);
   double dE = E0 - E;
   double f = 0.0;
   if (pe < 0 || E > E0) {
@@ -27,6 +28,7 @@ Double_t func_decay(double x) {
     f = N*pe*E*dE*dE;
   }
   return f;
+  cout <<f <<endl;
 }
 
 Int_t func_trans(double x) {
@@ -34,8 +36,9 @@ Int_t func_trans(double x) {
   AtomList atom;
 
   double m = atom.emass; // electron mass [MeV]
-  double pe = x;
-  double E = std::sqrt(pe*pe + m*m);
+  double E = x;
+  //double E = std::sqrt(pe*pe + m*m);
+  double pe = std::sqrt(E*E - m*m);
   double beta = pe/E;
 
   double dE, rho, l;
@@ -52,26 +55,25 @@ Int_t func_trans(double x) {
   /*
   Single material
   */
-
-  l = 0.05;// thickness [cm]
+  l = 0.1; // thickness [cm]
   rho = 8.96; // density [g/cm3]
   dE = dE_Cu * rho * l;
-
+  
   /*
   Compound material
   */
-
-  //l = 0.06; // thickness [cm]
-  //rho = 1.40; // density [g/cm3]
-  //double dE_plastic = (dE_C*0.625017 + dE_H*0.625017 + dE_O*0.333025 ) * rho * l; // Plastic C10H8O4
-  //l = 0.1; // thickness [cm]
-  //rho = 1.08; //density [g/cm3]
-  //double dE_ABS = (dE_C*0.922582 + dE_H*0.077418) * rho * l; //  polystyrene C6H5CHCH2
-  //dE = /*dE_plastic +*/ dE_ABS;
-
+  /*
+  l = 0.05; // thickness [cm]
+  rho = 1.40; // density [g/cm3]
+  double dE_plastic = (dE_C*14 + dE_H*10 + dE_O*4) * rho * l; // Plastic C10H8O4
+  l = 0.11; // thickness [cm]
+  rho = 1.08; //density [g/cm3]
+  double dE_ABS = (dE_C*15 + dE_H*17 + dE_N) * rho * l; // ABS resin
+  //dE = dE_ABS + dE_plastic;
+  */
 
   int f=0;
-  if (dE > E) {
+  if (dE < E) {
     f = 0;
   } else {
     f = 1;
@@ -80,7 +82,7 @@ Int_t func_trans(double x) {
   return f;
 }
 
-void betaDecay() {
+void betaDecay_ver3() {
   int nRow = 1;
   int nCal = 3;
 
@@ -89,9 +91,10 @@ void betaDecay() {
   c->SetBottomMargin(1.0);
   c->Divide(nRow,nCal, 0, 0);
 
+
   c->cd(1);
 
-  TF1* f_decay = new TF1("f_decay1", "func_decay(x)", 0.01, 2.5);
+  TF1* f_decay = new TF1("f_decay1", "func_decay(x)", 0.0, 2.5);
   f_decay->SetNpx(100000);
   gPad->SetTicks(1,1);
   //gPad->SetLogx();
@@ -105,7 +108,7 @@ void betaDecay() {
 
   c->cd(2);
 
-  TF1* f_trans = new TF1("f_trans", "func_trans(x)", 0.01, 2.5);
+  TF1* f_trans = new TF1("f_trans", "func_trans(x)", 0.0, 2.5);
   f_trans->SetNpx(100000);
   gPad->SetTicks(1,1);
   //gPad->SetLogx();
@@ -117,7 +120,7 @@ void betaDecay() {
 
   c->cd(3);
 
-  TF1* f = new TF1("f", "func_decay(x) * func_trans(x)", 0.01, 2.5);
+  TF1* f = new TF1("f", "func_decay(x) * func_trans(x)", 0.0, 2.5);
   f->SetNpx(100000);
   gPad->SetTicks(1,1);
   //gPad->SetLogx();
@@ -134,5 +137,5 @@ void betaDecay() {
   std::cout << "| Transmission |  " << Transmission << " |"<< std::endl;
   std::cout << "| Hit rate     |  " << Transmission/Events << " |" << std::endl;
 
-  c->SaveAs("./figure/betaDecay_Cu.pdf");
+  c->SaveAs("./figure/betaDecay_onCu.pdf");
 }
