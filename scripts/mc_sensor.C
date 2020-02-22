@@ -6,6 +6,7 @@
 #include <cmath>
 
 #include "TH1.h"
+#include "TH2.h"
 #include "TFile.h"
 #include "TMath.h"
 #include "TRandom3.h"
@@ -29,7 +30,8 @@ public:
 McResults generateEvents(int nTotal, 
 			 TH1* h_costheta0, TH1* h_phi0, 
 			 TH1* h_costheta1, TH1* h_phi1,
-			 TH1* h_costheta2, TH1* h_phi2) {
+			 TH1* h_costheta2, TH1* h_phi2,
+			 TH2F* hit_map) {
   McResults results;
 
   float costheta, phi, psi, r;
@@ -66,15 +68,20 @@ McResults generateEvents(int nTotal,
     x = sourcePosition[0] + v[0]*s;
     y = sourcePosition[0] + v[1]*s;
 
+    double hitx = 0.0;
+    double hity = 0.0;
+
     bool onScinti = false;
     bool onSensor = false;
     if (s > scintiCenter[2] && std::fabs(x)<scintiHalfX && std::fabs(y)<scintiHalfY) {
       onScinti = true;
       if (s > sensorCenter[2] && std::fabs(x)<sensorHalfX && std::fabs(y)<sensorHalfY) {
         onSensor = true;
+        hitx = x;
+        hity = y;
       }
     }
-
+    hit_map->Fill(hitx, hity);
     h_costheta0->Fill(costheta);
     h_phi0->Fill(phi);
     results.nGenerate ++;
@@ -110,14 +117,17 @@ void mc_sensor(const std::string& fname, int nToGenerate, ULong_t seed) {
   TH1* h_phi0 = new TH1F("h_phi0", "", 60, -pi, pi);
   TH1* h_phi1 = new TH1F("h_phi1", "", 60, -pi, pi);
   TH1* h_phi2 = new TH1F("h_phi2", "", 60, -pi, pi);
+  TH2F* hit_map = new TH2F("hit_map", "Hit map by mc simulation;col;raw", 400, 20.0/2, 20.0/2,
+                                                                          192, 11.6/2, 11.6/2);
 
   McResults results = generateEvents(nToGenerate, 
 				     h_costheta0, h_phi0, 
 				     h_costheta1, h_phi1,
-				     h_costheta2, h_phi2);
+				     h_costheta2, h_phi2,
+				     hit_map);
 
-  TCanvas* c = new TCanvas("canvas", "", 0, 0, 400, 300);
-  c->SetTicks(1,1);
+  TCanvas* c1 = new TCanvas("canvas", "", 0, 0, 400, 300);
+  c1->SetTicks(1,1);
   TH1* hframe=0;
   float ymax=1.0;
 
@@ -134,7 +144,15 @@ void mc_sensor(const std::string& fname, int nToGenerate, ULong_t seed) {
   h_costheta2->SetLineColor(kRed);
   h_costheta2->Draw("same");
 
-  c->SaveAs("./figure/mc_sensor.pdf");
+  c1->SaveAs("./figure/mc_sensor.pdf");
+
+  TCanvas* c2 = new TCanvas("canvas", "", 0, 0, 400, 380);
+  c2->SetTicks(1,1);
+  hit_map->SetMaximum(10);
+  hit_map->SetStats(0);
+  hit_map->Draw("colz");
+  c2->SaveAs("./figure/mc_sensor_hitmap10_ver2.pdf");
+
 
   if (fout != nullptr) {
     fout->Write();
