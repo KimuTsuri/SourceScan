@@ -6,3 +6,5 @@
 *.raw.root
 *.raw
 *.swap
+/ref
+
